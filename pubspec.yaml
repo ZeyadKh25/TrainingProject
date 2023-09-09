@@ -1,0 +1,52 @@
+name: Sallate
+description: Online store application It displays many products and various Categories, in addition to the ability to like a specific product.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.1.0
+  conditional_builder_null_safety: ^0.0.6
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  dio: ^4.0.6
+  shared_preferences: ^2.0.15
+  smooth_page_indicator: ^1.0.0+2
+  hexcolor: ^3.0.1
+  flutter_svg: ^1.1.6
+  fluttertoast: ^8.1.1
+  carousel_slider: ^4.1.1
+  cached_network_image: ^3.2.2
+  connectivity_plus: ^3.0.2
+  flutter_native_splash: ^2.2.14
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splashShop1.png
+  color_dark: "#1a1a1a"
+#  ios: true
+#  android_gravity: fill
+#  ios_content_mode: scaleAspectFill
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+flutter_icons:
+  android: true
+  #  ios: true
+  image_path: "assets/images/shop1.png"
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoCondensed-Italic.ttf
+    - family: Satisfy
+      fonts:
+        - asset: assets/fonts/Satisfy-Regular.ttf
